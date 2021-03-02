@@ -1,0 +1,29 @@
+{
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "name": "elixant-technology/event-dispatcher",
+  "description": "Simple and easy-to-use Event Dispatcher.",
+  "keywords": ["elixant", "event", "dispatcher", "platform"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "Alexander M. Schmautz",
+	  "email": "president@elixant-technology.com",
+	  "homepage": "https://elixant-technology.com"
+	}
+  ],
+  "require": {
+	"php": "^7.4|^8.0",
+	"elixant-technology/container": "dev-main",
+	"psr/container": "^1.0"
+  },
+  "autoload": {
+	"psr-4": {
+	  "Elixant\\Components\\EventDispatcher\\": "src/"
+	}
+  },
+  "config": {
+	"optimize-autoloader": true
+  }
+}
