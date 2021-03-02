@@ -31,7 +31,6 @@ namespace Elixant\Components\EventDispatcher;
  * @version         Release: @package_version@
  */
 use Closure;
-use Psr\EventDispatcher\EventDispatcherInterface;
 use Elixant\Components\Container\Traits\ContainerAwareTrait;
 use Elixant\Components\Utility\Arr;
 use Elixant\Components\Utility\Str;
